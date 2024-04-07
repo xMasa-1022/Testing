@@ -1,0 +1,27 @@
+
+#net.minecraft.scalar.mineall.mod_MineAllSMP
+[configuration]
+	#String: "iron_pickaxe, wooden_pickaxe, stone_pickaxe, diamond_pickaxe, golden_pickaxe, netherite_pickaxe, wooden_hoe,stone_hoe,golden_hoe,iron_hoe,diamond_hoe,netherite_hoe"
+	itemIds = "iron_pickaxe, wooden_pickaxe, stone_pickaxe, diamond_pickaxe, golden_pickaxe, netherite_pickaxe, wooden_hoe,stone_hoe,golden_hoe,iron_hoe,diamond_hoe,netherite_hoe"
+	#String: "gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite, polished_granite, diorite, polished_diorite, andesite, polished_andesite,ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore"
+	blockIds = "gold_ore, iron_ore, coal_ore, lapis_ore, obsidian, diamond_ore, redstone_ore, glowstone, emerald_ore, nether_quartz_ore, granite,  diorite,  andesite, ancient_debris,nether_gold_ore,sponge,wet_sponge,nether_wart_block,warped_wart_block,crying_obsidian,ancient_debris, deepslate_coal_ore, deepslate_copper_ore, deepslate_diamond_ore, deepslate_emerald_ore, deepslate_gold_ore, deepslate_iron_ore, deepslate_lapis_ore, deepslate_redstone_ore, immersiveengineering:ore_aluminum, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:raw_block_aluminum, immersiveengineering:sheetmetal_lead, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead, immersiveengineering:raw_block_lead, immersiveengineering:ore_silver, immersiveengineering:deepslate_ore_silver, immersiveengineering:raw_block_silver, immersiveengineering:ore_nickel, immersiveengineering:deepslate_ore_nickel, immersiveengineering:raw_block_nickel, immersiveengineering:ore_uranium, immersiveengineering:deepslate_ore_uranium, immersiveengineering:raw_block_uranium, mekanism:block_raw_osmium, mekanism:block_raw_tin, mekanism:block_raw_lead, mekanism:block_raw_uranium, mekanism:tin_ore, mekanism:deepslate_tin_ore, mekanism:osmium_ore, mekanism:deepslate_osmium_ore, mekanism:uranium_ore, mekanism:deepslate_uranium_ore, mekanism:fluorite_ore, mekanism:deepslate_fluorite_ore, mekanism:lead_ore, mekanism:deepslate_lead_ore, create:zinc_ore, create:deepslate_zinc_ore, create:raw_zinc_block"
+	#Boolean: true
+	DestroyUnder = true
+	#Boolean: true
+	StartMode = true
+	#String: "KEY_M"
+	Key = "KEY_M"
+	#Integer: 0
+	Limiter = 0
+	#Integer: 0
+	#0:not decrease durability 1,2:decrease durability(1=until whole blocks 2=until break an item)
+	Durability = 0
+	#Boolean: false
+	AutoCollect = true
+	#Boolean: false
+	DropGather = false
+	#String: "mod_mineall"
+	channelName = "mod_mineall"
+	#Boolean: true
+	UseOreTag = true
+
